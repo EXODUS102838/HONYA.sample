@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+
+body {
+	color: #ffffff;
+	text-decoration: bold;
+   background-color: #486d46;           
+   background-image: url("../photo/books-1835753__340.jpg");
+   background-size: cover;               /* �S���� */
+   background-attachment: fixed;         /* �Œ� */
+   background-position: center center;   /* �c������ */
+}
+
+
+	
+
+}
+.logo{
+	margin-top: 0;
+	bottom:500px;
+	filter: saturate(200%);
+	filter: contrast(200%);
+	float: right;
+}
+
+nav{
+	margin-right: 0;
+	margin-top: 0;
+	color: #ffffff;
+}
+nav ul{
+	float: left;
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li{
+	
+}
+.mainbtn{
+	
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	height: 50px;
+	width: 200px;
+	background-color: #2f4f4f;
+	boder-bottom: 6px solid #000000;
+	border-radius: 6px;
+	
+}
+.mainbtn:hover{
+	cursor: pointer;
+	text-decoration: none;
+	background: #ff4500;
+	transform: translate3d(0, 4px, 0);
+	border-bottom: none;
+}
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited{
+	color: #ff7f50;
+}
+@keyframes RightToLeft {
+  0% {
+    opacity: 0;/* ���� */
+    transform: translateX(50px);/* X��������50px */
+  }
+  100% {
+    opacity: 1;/* �s���� */
+    transform: translateX(0);
+  }
+}
+
+/* �uRightToLeft�v���K�p�����ӏ� */
+#main h1{
+	font-size: 130px;
+  animation-duration: 2s;/* �A�j���[�V�������� */
+  animation-name: RightToLeft;/* �A�j���[�V������ */
+}
+footer{
+
+	padding-bottom: 0;
+	padding: 30px 0 0 0;
+	
+}
+footer p{
+	font-size: 2em;
+	color: #ffffff;
+	padding: 30px 0 30px 0;
+	background-color: #000000;
+	text-align: center;
+}
+#main p{
+	font-size: 20px;
+}
+#main h3{
+	font-size: 30px;
+}
+input.database{
+	width: 250px;
+	height: 30px;
+}
+.retu{
+	display: inline-block;
+	padding-right: 100px;
+}
+form {
+	margin-top: 30px;
+}
+input.textfield, textarea {
+	border: 1px solid #d1ccb4;
+}
+input.textfield {
+	width: 250px;
+	height: 30px;
+}
+.sb{
+	text-decoration: bold;
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+	border-radius: 8px;
+}
+textarea {
+	width: 500px;
+	height: 170px;
+	overflow-y: scroll;
+}
+.map{
+	position: relative;
+	margin: 0 100px 10px 600px;
+}
+ul{
+	margin-bottom: 100px;
+	font-size: 20pt;
+}
